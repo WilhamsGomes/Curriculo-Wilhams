@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:rgb(226, 226, 226);
+    font-family: 'Roboto';
+}
+
+h2{
+    color: #19304F;
+}
+
+/*FORMATAÇÃO CONTEINER E LADO ESQUERDO*/
+#conteiner{
+    width: 70%;
+    height: 1600px;
+    display: flex;
+    justify-content: center;
+    margin-left: 190px;
+}
+
+
+#lado-esquerdo{
+    background-color: #FFFFFF;
+    width: 600px;
+    height: 100%;
+}
+
+/*FORMATAÇÃO DO ASIDE*/
+#lado-direito{
+   background-color: #19304F;
+   width: 300px;
+   height: 100%; 
+}
+
+#lado-direito p {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+#lado-direito h2{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.contato{
+    margin-top: 80px;
+    margin-right: 22px;
+    margin-left: 22px;
+}
+
+.icones img{
+    width: 40px;
+    height: 40px;
+    margin: 7px;
+    padding-left: 10px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.icones img:hover{
+    opacity: 1;
+}
+
+
+
+.titles-aside{
+    margin:11px;
+    line-height: 15px; /*Valor pedido na atividade*/
+    
+}
+
+.info-contato{
+    line-height: 25px;
+    margin-left: 20px;
+}
+
+.info-cohecimento{
+    line-height: 35px;
+    margin-left: 20px;  
+}
+
+
+/*FORMATAÇÃO DO SECTION -  NOME E FOTO*/
+
+#lado-esquerdo img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    margin-left: 25px; /*MARGEM LATERAL*/
+    margin-right: 11px; /*MARGEM SEGUINDO ATIVIDADE*/
+}
+
+#info-name-foto{
+    display: flex;
+}
+
+#info-name-foto h2{
+    padding-top: 60px;
+    
+}
+
+#info-name-foto p {
+    padding-top: 100px;
+    margin-left: -160px;
+}
+
+/*FORMATAÇÃO DO SECTION - PERFIL*/
+
+#profile{
+    margin-left: 75px;
+    margin-top: 50px;
+    margin-bottom: 36px;
+}
+
+#profile h2{
+    margin-bottom: 10px; /*VALOR PEDIDO NA ATIVIDADE*/
+}
+
+#profile p{
+    line-height: 18px; /*VALOR PEDIDO NA ATIVIDADE*/
+}
+
+/*FORMATAÇÃO DO SECTION - EXPERIENCIA*/
+
+#experiencia{
+    margin-left: 75px;
+    margin-top: 50px;
+    margin-bottom: 36px; /*VALOR PEDIDO NA ATIVIDADE*/
+}
+
+#experiencia h2{
+    margin-bottom: 10px;
+}
+
+#experiencia ul{
+    line-height: 18px;
+    padding-left: 20px;
+}
+
+#experiencia li{
+    padding-bottom: 10px;
+}
+
+/*FORMATAÇÃO DO SECTION - EDUCAÇÃO*/
+
+#educacao{
+    margin-left: 75px;
+    margin-top: 50px;
+    margin-bottom: 36px; /*VALOR PEDIDO NA ATIVIDADE*/
+}
+
+#educacao h2{
+    margin-bottom: 10px;
+}
+
+#educacao ul{
+    line-height: 18px;
+    padding-left: 20px;
+}
+
+#educacao li{
+    padding-bottom: 10px;
+}
+
+/*FORMATAÇÃO DO SECTION - PROJETO*/
+
+#projetos{
+    margin-left: 75px;
+    margin-top: 50px;
+    margin-bottom: 36px; /*VALOR PEDIDO NA ATIVIDADE*/
+}
+
+#projetos h2{
+    margin-bottom: 10px;
+}
+
+#projetos ul{
+    line-height: 18px;
+    padding-left: 20px;
+}
+
+#projetos li{
+    padding-bottom: 10px;
+}
+
+#projetos a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*FORMATAÇÃO RODAPÉ*/
+
+#rodape{
+    margin-left: 200px;
+    margin-top: 110px;
+}
+
+/*FORMATAÇÃO HR*/
+hr{
+   width: 180px;
+}
